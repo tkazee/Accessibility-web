@@ -1,0 +1,187 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the entire page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Set your desired background color */
+}
+/* Header Styles */
+header {
+    background-color: #333;
+    /* Set your header background color */
+    color: #fff;
+    /* Set text color */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    max-width: 100px;
+    /* Adjust the logo size */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ff6600;
+    /* Set the hover color */
+}
+/* Page Content Styles */
+section {
+    padding: 20px;
+}
+video,
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    /* Set your footer background color */
+    color: #fff;
+    /* Set text color */
+    padding: 10px 0;
+    text-align: center;
+}
+/* Reset some default styles for better consistency */
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form {
+    margin: 0;
+    padding: 0;
+}
+/* Set a background color and text color for the entire page */
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+#logo {
+    height: 100;
+    width: 100;
+    font-size: 24px;
+    font-weight: bold;
+}
+#search {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* Style the landing page content */
+#landing-page {
+    text-align: center;
+    padding: 20px;
+    height: max-content;
+}
+video {
+    max-width: 70%;
+}
+img {
+    max-width: 40%;
+    height: auto;
+}
+/* Style the about us page content */
+#about-us {
+    text-align: center;
+    padding: 20px;
+}
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+/* Style the contact page content */
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+address {
+    font-style: normal;
+}
+form {
+    margin-top: 20px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
